@@ -1,5 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Base.Theme.DinoPedia." parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <style name="Base.Theme.DinoPedia" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/biru</item>
         <item name="colorPrimaryDark">@color/biru</item>
     </style>
