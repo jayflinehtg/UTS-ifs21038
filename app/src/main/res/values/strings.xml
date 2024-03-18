@@ -1,0 +1,513 @@
+<resources>
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_familia_icon">Gambar Famili</string>
+    <string name="info_familia_name">Nama Famili</string>
+    <string name="info_familia_desc">Deskripsi Famili</string>
+    <string name="info_familia_periode">Periode Hidup</string>
+    <string name="info_familia_characteristic">Karakteristik Fisik</string>
+    <string name="info_familia_habitat">Habitat dan Lingkungan</string>
+    <string name="info_familia_perilaku">Perilaku dan Klasifikasi</string>
+
+    <string name="info_dino_icon">Gambar Dinosaurus</string>
+    <string name="info_dino_name">Nama Dinosaurus</string>
+    <string name="info_dino_desc">Gambar Dinosaurus</string>
+    <string name="info_dino_characteristic">Karakteristik</string>
+    <string name="info_dino_kelompok">Kelompok</string>
+    <string name="info_dino_habitat">Habitat</string>
+    <string name="info_dino_makanan">Makanan</string>
+    <string name="info_dino_panjang">Panjang</string>
+    <string name="info_dino_tinggi">Tinggi</string>
+    <string name="info_dino_bobot">Bobot dan Kelemahan</string>
+
+    <string-array name="familia_icon">
+        <item>@drawable/angka_1</item>
+        <item>@drawable/angka_2</item>
+        <item>@drawable/angka_3</item>
+        <item>@drawable/angka_4</item>
+        <item>@drawable/angka_5</item>
+        <item>@drawable/angka_6</item>
+        <item>@drawable/angka_7</item>
+        <item>@drawable/angka_8</item>
+    </string-array>
+
+    <string-array name="familia_name">
+        <item>Ornithischia</item>
+        <item>Theropoda</item>
+        <item>Ankylosauria</item>
+        <item>Dromaeosauridae</item>
+        <item>Troodontidae</item>
+        <item>Ceratopsia</item>
+        <item>Stegosauria</item>
+        <item>Oviraptorosauria</item>
+    </string-array>
+
+    <string-array name="familia_desc">
+        <item>Ornithischia adalah famili yang mencakup dinosaurus yang memiliki tulang atau osteoderm pada kepala dan badan. Mereka adalah hewan yang sangat beragam, termasuk herbivora seperti Triceratops dan Stegosaurus, serta carnivora seperti Velociraptor. Ornithischia dikenal karena "kerucut" atau "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala, yang memberikan perlindungan tambahan.</item>
+        <item>Theropoda adalah famili yang mencakup dinosaurus yang memiliki kaki yang sangat kuat dan seringkali memiliki gigi yang sangat agresif. Mereka adalah hewan yang sangat beragam, termasuk carnivora seperti Tyrannosaurus Rex dan Velociraptor. Theropoda juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+        <item>Ankylosauria adalah famili yang mencakup dinosaurus herbivora yang memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala. Mereka dikenal karena kekuatan dan perlindungan yang mereka miliki, yang membuat mereka menjadi hewan yang sangat berharga dalam ekosistem mereka.</item>
+        <item>Dromaeosauridae adalah famili yang mencakup dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat. Mereka adalah hewan yang sangat beragam, termasuk Velociraptor dan Deinonychus. Dromaeosauridae juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+        <item>Troodontidae adalah famili yang mencakup dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat. Mereka adalah hewan yang sangat beragam, termasuk Troodon dan Anchiornis. Troodontidae juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+        <item>Ceratopsia adalah famili yang mencakup dinosaurus herbivora yang terkenal karena "kerucut" yang besar di kepalanya. Mereka adalah hewan yang sangat beragam, termasuk Triceratops dan Centrosaurus. Ceratopsia dikenal karena "kerucut" atau "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala, yang memberikan perlindungan tambahan.</item>
+        <item>Stegosauria adalah famili yang mencakup dinosaurus herbivora yang dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala. Mereka adalah hewan yang sangat beragam, termasuk Stegosaurus dan Kentrosaurus. Stegosauria dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala, yang memberikan perlindungan tambahan.</item>
+        <item>Oviraptorosauria adalah famili yang mencakup dinosaurus yang dikenal karena ciri khas seperti kepala yang kecil dan tulang yang sangat kuat. Mereka adalah hewan yang sangat beragam, termasuk Oviraptor dan Caudipteryx. Oviraptorosauria juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+    </string-array>
+
+    <string-array name="familia_periode">
+        <item>Ornithischia adalah famili yang memiliki periode kehidupan yang luas, mencakup sebagian besar era Mesozoikum. Mereka pertama kali muncul pada era Trias dan berakhir pada era Kredit.</item>
+        <item>Theropoda juga memiliki periode kehidupan yang luas, mencakup sebagian besar era Mesozoikum. Mereka pertama kali muncul pada era Trias dan berakhir pada era Kredit.</item>
+        <item>Ankylosauria adalah famili yang memiliki periode kehidupan yang luas, mencakup sebagian besar era Mesozoikum. Mereka pertama kali muncul pada era Jura dan berakhir pada era Kredit.</item>
+        <item>Dromaeosauridae adalah famili yang memiliki periode kehidupan yang luas, mencakup sebagian besar era Mesozoikum. Mereka pertama kali muncul pada era Jura dan berakhir pada era Kredit.</item>
+        <item>Troodontidae adalah famili yang memiliki periode kehidupan yang luas, mencakup sebagian besar era Mesozoikum. Mereka pertama kali muncul pada era Jura dan berakhir pada era Kredit.</item>
+        <item>Ceratopsia adalah famili yang memiliki periode kehidupan yang luas, mencakup sebagian besar era Mesozoikum. Mereka pertama kali muncul pada era Jura dan berakhir pada era Kredit.</item>
+        <item>Stegosauria adalah famili yang memiliki periode kehidupan yang luas, mencakup sebagian besar era Mesozoikum. Mereka pertama kali muncul pada era Jura dan berakhir pada era Kredit.</item>
+        <item>Oviraptorosauria adalah famili yang memiliki periode kehidupan yang luas, mencakup sebagian besar era Mesozoikum. Mereka pertama kali muncul pada era Jura dan berakhir pada era Kredit.</item>
+    </string-array>
+
+
+    <string-array name="familia_characteristic">
+        <item>Ornithischia adalah dinosaurus yang memiliki tulang atau osteoderm pada kepala dan badan. Mereka dikenal karena "kerucut" atau "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala, yang memberikan perlindungan tambahan. Ornithischia mencakup herbivora seperti Triceratops dan Stegosaurus, serta carnivora seperti Velociraptor.</item>
+        <item>Theropoda adalah dinosaurus yang memiliki kaki yang sangat kuat dan seringkali memiliki gigi yang sangat agresif. Mereka adalah hewan yang sangat beragam, termasuk carnivora seperti Tyrannosaurus Rex dan Velociraptor. Theropoda juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+        <item>Ankylosauria adalah dinosaurus herbivora yang memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala. Mereka dikenal karena kekuatan dan perlindungan yang mereka miliki, yang membuat mereka menjadi hewan yang sangat berharga dalam ekosistem mereka. Ankylosauria mencakup dinosaurus seperti Ankylosaurus dan Nodosaurus.</item>
+        <item>Dromaeosauridae adalah dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat. Mereka adalah hewan yang sangat beragam, termasuk Velociraptor dan Deinonychus. Dromaeosauridae juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+        <item>Troodontidae adalah dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat. Mereka adalah hewan yang sangat beragam, termasuk Troodon dan Anchiornis. Troodontidae juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+        <item>Ceratopsia adalah dinosaurus herbivora yang terkenal karena "kerucut" yang besar di kepalanya. Mereka adalah hewan yang sangat beragam, termasuk Triceratops dan Centrosaurus. Ceratopsia dikenal karena "kerucut" atau "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala, yang memberikan perlindungan tambahan.</item>
+        <item>Stegosauria adalah dinosaurus herbivora yang dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala. Mereka adalah hewan yang sangat beragam, termasuk Stegosaurus dan Kentrosaurus. Stegosauria dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala, yang memberikan perlindungan tambahan.</item>
+        <item>Oviraptorosauria adalah dinosaurus yang dikenal karena ciri khas seperti kepala yang kecil dan tulang yang sangat kuat. Mereka adalah hewan yang sangat beragam, termasuk Oviraptor dan Caudipteryx. Oviraptorosauria juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+    </string-array>
+
+    <string-array name="familia_habitat">
+        <item>Ornithischia hidup di berbagai habitat, termasuk hutan, savana, dan tundra. Mereka dapat ditemukan di berbagai bagian dunia, termasuk Amerika Utara, Eropa, dan Asia.</item>
+        <item>Theropoda hidup di berbagai habitat, termasuk hutan, savana, dan tundra. Mereka juga dapat ditemukan di berbagai bagian dunia, termasuk Amerika Utara, Eropa, dan Asia.</item>
+        <item>Ankylosauria hidup di berbagai habitat, termasuk hutan, savana, dan tundra. Mereka dapat ditemukan di berbagai bagian dunia, termasuk Amerika Utara, Eropa, dan Asia.</item>
+        <item>Dromaeosauridae hidup di berbagai habitat, termasuk hutan, savana, dan tundra. Mereka juga dapat ditemukan di berbagai bagian dunia, termasuk Amerika Utara, Eropa, dan Asia.</item>
+        <item>Troodontidae hidup di berbagai habitat, termasuk hutan, savana, dan tundra. Mereka juga dapat ditemukan di berbagai bagian dunia, termasuk Amerika Utara, Eropa, dan Asia.</item>
+        <item>Ceratopsia hidup di berbagai habitat, termasuk hutan, savana, dan tundra. Mereka dapat ditemukan di berbagai bagian dunia, termasuk Amerika Utara, Eropa, dan Asia.</item>
+        <item>Stegosauria hidup di berbagai habitat, termasuk hutan, savana, dan tundra. Mereka dapat ditemukan di berbagai bagian dunia, termasuk Amerika Utara, Eropa, dan Asia.</item>
+        <item>Oviraptorosauria hidup di berbagai habitat, termasuk hutan, savana, dan tundra. Mereka juga dapat ditemukan di berbagai bagian dunia, termasuk Amerika Utara, Eropa, dan Asia.</item>
+    </string-array>
+
+    <string-array name="familia_perilaku">
+        <item>Ornithischia umumnya dikenal sebagai hewan yang bergerak dengan cara berjalan. Mereka memiliki "kerucut" atau "dinding" di belakang kepala yang memberikan perlindungan tambahan. Beberapa spesies mungkin juga memiliki perilaku yang berhubungan dengan pemeliharaan atau perilaku sosial.</item>
+        <item>Theropoda dikenal sebagai hewan yang sangat beragam dalam perilaku mereka, mulai dari herbivora hingga carnivora. Beberapa spesies mungkin bergerak dengan cara berjalan, sementara yang lain mungkin bergerak dengan cara berlari. Mereka juga dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat, yang menunjukkan perilaku predator.</item>
+        <item>Ankylosauria umumnya dikenal sebagai hewan yang bergerak dengan cara berjalan. Mereka memiliki tulang yang sangat kuat dan "dinding" di belakang kepala yang memberikan perlindungan tambahan. Beberapa spesies mungkin juga memiliki perilaku yang berhubungan dengan pemeliharaan atau perilaku sosial.</item>
+        <item>Dromaeosauridae dikenal sebagai hewan yang sangat agresif dan bergerak dengan cara berlari. Mereka memiliki gigi yang sangat agresif dan kaki yang sangat kuat, yang menunjukkan perilaku predator. Beberapa spesies mungkin juga memiliki perilaku yang berhubungan dengan pemeliharaan atau perilaku sosial.</item>
+        <item>Troodontidae dikenal sebagai hewan yang sangat agresif dan bergerak dengan cara berlari. Mereka memiliki gigi yang sangat agresif dan kaki yang sangat kuat, yang menunjukkan perilaku predator. Beberapa spesies mungkin juga memiliki perilaku yang berhubungan dengan pemeliharaan atau perilaku sosial.</item>
+        <item>Ceratopsia umumnya dikenal sebagai hewan yang bergerak dengan cara berjalan. Mereka memiliki "kerucut" atau "dinding" di belakang kepala yang memberikan perlindungan tambahan. Beberapa spesies mungkin juga memiliki perilaku yang berhubungan dengan pemeliharaan atau perilaku sosial.</item>
+        <item>Stegosauria umumnya dikenal sebagai hewan yang bergerak dengan cara berjalan. Mereka memiliki "dinding" di belakang kepala yang memberikan perlindungan tambahan. Beberapa spesies mungkin juga memiliki perilaku yang berhubungan dengan pemeliharaan atau perilaku sosial.</item>
+        <item>Oviraptorosauria dikenal sebagai hewan yang sangat beragam dalam perilaku mereka, mulai dari herbivora hingga carnivora. Beberapa spesies mungkin bergerak dengan cara berjalan, sementara yang lain mungkin bergerak dengan cara berlari. Mereka juga dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat, yang menunjukkan perilaku predator.</item>
+    </string-array>
+
+    <!--    BAGIAN 1-->
+
+    <string-array name="dino_icon1">
+        <item>@drawable/angka_1</item>
+        <item>@drawable/angka_2</item>
+    </string-array>
+
+    <string-array name="dino_name1">
+        <item>Triceratops</item>
+        <item>Stegosaurus</item>
+    </string-array>
+
+    <string-array name="dino_desc1">
+        <item>Dinosaurus herbivora yang terkenal karena "kerucut" yang besar di kepalanya.</item>
+        <item>Dinosaurus herbivora yang dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+    </string-array>
+
+    <string-array name="dino_characteristic1">
+        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+    </string-array>
+
+    <string-array name="dino_kelompok1">
+        <item>Herbivora.</item>
+        <item>Herbivora.</item>
+    </string-array>
+
+    <string-array name="dino_habitat1">
+        <item>Hutan dan savana.</item>
+        <item>Hutan dan savana.</item>
+    </string-array>
+
+    <string-array name="dino_makanan1">
+        <item>Fitoplankton, alga, dan serbaguna.</item>
+        <item> Fitoplankton, alga, dan serbaguna.</item>
+    </string-array>
+
+    <string-array name="dino_panjang1">
+        <item>Sekitar 6.5 meter.</item>
+        <item>Sekitar 9 meter.</item>
+    </string-array>
+
+    <string-array name="dino_tinggi1">
+        <item>Sekitar 2 meter.</item>
+        <item>Sekitar 2.5 meter.</item>
+    </string-array>
+
+    <string-array name="dino_bobot1">
+        <item>Bobot sekitar 2.5 ton. Kelemahan termasuk "kerucut" yang besar yang mungkin membuatnya lebih rentan terhadap serangan predator.</item>
+        <item>Bobot sekitar 2.5 ton. Kelemahan termasuk "dinding" yang terlalu besar yang mungkin membuatnya tidak efisien dalam bergerak.</item>
+    </string-array>
+
+    <!--    BAGIAN 2-->
+    <string-array name="dino_icon2">
+        <item>@drawable/angka_1</item>
+        <item>@drawable/angka_2</item>
+    </string-array>
+
+    <string-array name="dino_name2">
+        <item>Tyrannosaurus Rex</item>
+        <item>Velociraptor</item>
+    </string-array>
+
+    <string-array name="dino_desc2">
+        <item>Dinosaurus carnivora yang terbesar dan terkenal karena gigi yang sangat besar dan agresif.</item>
+        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+    </string-array>
+
+    <string-array name="dino_characteristic2">
+        <item>Memiliki kaki yang sangat kuat dan gigi yang sangat agresif.</item>
+        <item>Memiliki kaki yang sangat kuat dan gigi yang sangat agresif.</item>
+    </string-array>
+
+    <string-array name="dino_kelompok2">
+        <item>Karnivora</item>
+        <item>Karnivora</item>
+    </string-array>
+
+    <string-array name="dino_habitat2">
+        <item>Ornithischia hidup di berbagai habitat, termasuk hutan, savana, dan tundra. Mereka dapat ditemukan di berbagai bagian dunia, termasuk Amerika Utara, Eropa, dan Asia.</item>
+        <item>Theropoda hidup di berbagai habitat, termasuk hutan, savana, dan tundra. Mereka juga dapat ditemukan di berbagai bagian dunia, termasuk Amerika Utara, Eropa, dan Asia.</item>
+    </string-array>
+
+    <string-array name="dino_makanan2">
+        <item>Hutan dan savana.</item>
+        <item>Hutan dan savana.</item>
+    </string-array>
+
+    <string-array name="dino_panjang2">
+        <item>Sekitar 12 meter.</item>
+        <item>Sekitar 3 meter.</item>
+    </string-array>
+
+    <string-array name="dino_tinggi2">
+        <item>Sekitar 4 meter.</item>
+        <item>Sekitar 1 meter.</item>
+    </string-array>
+
+    <string-array name="dino_bobot2">
+        <item>Bobot sekitar 12 ton. Kelemahan termasuk kaki yang tidak terlalu kuat untuk berjalan jauh.</item>
+        <item>Bobot sekitar 30 kg. Kelemahan termasuk ukuran yang relatif kecil dibandingkan dengan predatornya.</item>
+    </string-array>
+
+    <!--    BAGIAN 3-->
+    <string-array name="dino_icon3">
+        <item>@drawable/angka_1</item>
+        <item>@drawable/angka_2</item>
+    </string-array>
+
+    <string-array name="dino_name3">
+        <item>Ankylosaurus</item>
+        <item>Nodosaurus</item>
+    </string-array>
+
+    <string-array name="dino_desc3">
+        <item>Dinosaurus herbivora yang memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Theropoda adalah famili yang mencakup dinosaurus yang memiliki kaki yang sangat kuat dan seringkali memiliki gigi yang sangat agresif. Mereka adalah hewan yang sangat beragam, termasuk carnivora seperti Tyrannosaurus Rex dan Velociraptor. Theropoda juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+    </string-array>
+
+    <string-array name="dino_characteristic3">
+        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+    </string-array>
+
+    <string-array name="dino_kelompok3">
+        <item>Herbivora.</item>
+        <item>Herbivora.</item>
+    </string-array>
+
+    <string-array name="dino_habitat3">
+        <item>Hutan dan savana.</item>
+        <item>Hutan dan savana.</item>
+    </string-array>
+
+    <string-array name="dino_makanan3">
+        <item>Fitoplankton, alga, dan serbaguna.</item>
+        <item>Fitoplankton, alga, dan serbaguna.</item>
+    </string-array>
+
+    <string-array name="dino_panjang3">
+        <item>Sekitar 6 meter.</item>
+        <item>Sekitar 9 meter.</item>
+    </string-array>
+
+    <string-array name="dino_tinggi3">
+        <item>Sekitar 2 meter.</item>
+        <item>Sekitar 2 meter.</item>
+    </string-array>
+
+    <string-array name="dino_bobot3">
+        <item>Bobot sekitar 2.5 ton. Kelemahan termasuk "dinding" yang terlalu besar yang mungkin membuatnya tidak efisien dalam bergerak.</item>
+        <item>Bobot sekitar 2.5 ton. Kelemahan termasuk "dinding" yang terlalu besar yang mungkin membuatnya tidak efisien dalam bergerak.</item>
+    </string-array>
+
+    <!--    BAGIAN 4-->
+    <string-array name="dino_icon4">
+        <item>@drawable/angka_1</item>
+        <item>@drawable/angka_2</item>
+    </string-array>
+
+    <string-array name="dino_name4">
+        <item>Velociraptor</item>
+        <item>Deinonychus</item>
+    </string-array>
+
+    <string-array name="dino_desc4">
+        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+    </string-array>
+
+    <string-array name="dino_characteristic4">
+        <item>Memiliki kaki yang sangat kuat dan gigi yang sangat agresif.</item>
+        <item>Memiliki kaki yang sangat kuat dan gigi yang sangat agresif.</item>
+    </string-array>
+
+    <string-array name="dino_kelompok4">
+        <item>Karnivora</item>
+        <item>Karnivora</item>
+    </string-array>
+
+    <string-array name="dino_habitat4">
+        <item>Hutan dan Savana </item>
+        <item>Hutan dan Savana </item>
+    </string-array>
+
+    <string-array name="dino_makanan4">
+        <item>Hewan besar lainnya, termasuk dinosaurus lainnya.</item>
+        <item>Hewan besar lainnya, termasuk dinosaurus lainnya.</item>
+    </string-array>
+
+    <string-array name="dino_panjang4">
+        <item>Sekitar 3 meter.</item>
+        <item>Sekitar 3 meter.</item>
+    </string-array>
+
+    <string-array name="dino_tinggi4">
+        <item>Sekitar 1 meter.</item>
+        <item>Sekitar 1 meter.</item>
+    </string-array>
+
+    <string-array name="dino_bobot4">
+        <item>Bobot sekitar 30 kg. Kelemahan termasuk ukuran yang relatif kecil dibandingkan dengan predatornya.</item>
+        <item>Bobot sekitar 30 kg. Kelemahan termasuk ukuran yang relatif kecil dibandingkan dengan predatornya.</item>
+    </string-array>
+
+    <!--    BAGIAN 5-->
+
+    <string-array name="dino_icon5">
+        <item>@drawable/angka_1</item>
+        <item>@drawable/angka_2</item>
+    </string-array>
+
+    <string-array name="dino_name5">
+        <item>Troodon</item>
+        <item>Anchiornis</item>
+    </string-array>
+
+    <string-array name="dino_desc5">
+        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+    </string-array>
+
+    <string-array name="dino_characteristic5">
+        <item>Memiliki kaki yang sangat kuat dan gigi yang sangat agresif.</item>
+        <item>Memiliki kaki yang sangat kuat dan gigi yang sangat agresif.</item>
+    </string-array>
+
+    <string-array name="dino_kelompok5">
+        <item>Karnivora</item>
+        <item>Karnivora</item>
+    </string-array>
+
+    <string-array name="dino_habitat5">
+        <item>Hutan dan Savana</item>
+        <item>Hutan dan Savana</item>
+    </string-array>
+
+    <string-array name="dino_makanan5">
+        <item>Hewan besar lainnya, termasuk dinosaurus lainnya.</item>
+        <item>Hewan besar lainnya, termasuk dinosaurus lainnya.</item>
+    </string-array>
+
+    <string-array name="dino_panjang5">
+        <item>Sekitar 3 meter.</item>
+        <item>Sekitar 3 meter.</item>
+    </string-array>
+
+    <string-array name="dino_tinggi5">
+        <item>Sekitar 1 meter.</item>
+        <item>Sekitar 1 meter.</item>
+    </string-array>
+
+    <string-array name="dino_bobot5">
+        <item>Bobot sekitar 30 kg. Kelemahan termasuk ukuran yang relatif kecil dibandingkan dengan predatornya.</item>
+        <item>Bobot sekitar 30 kg. Kelemahan termasuk ukuran yang relatif kecil dibandingkan dengan predatornya.</item>
+    </string-array>
+
+    <!--    BAGIAN 6-->
+    <string-array name="dino_icon6">
+        <item>@drawable/angka_1</item>
+        <item>@drawable/angka_2</item>
+    </string-array>
+
+    <string-array name="dino_name6">
+        <item>Triceratops</item>
+        <item>Centrosaurus</item>
+    </string-array>
+
+    <string-array name="dino_desc6">
+        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+    </string-array>
+
+    <string-array name="dino_characteristic6">
+        <item>Dinosaurus herbivora yang terkenal karena "kerucut" yang besar di kepalanya.</item>
+        <item>Dinosaurus herbivora yang terkenal karena "kerucut" yang besar di kepalanya.</item>
+    </string-array>
+
+    <string-array name="dino_kelompok6">
+        <item>Herbivora</item>
+        <item>Herbivora</item>
+    </string-array>
+
+    <string-array name="dino_habitat6">
+        <item>Hutan dan Savana</item>
+        <item>Hutan dan Savana</item>
+    </string-array>
+
+    <string-array name="dino_panjang6">
+        <item>Sekitar 6.5 meter.</item>
+        <item>Sekitar 6 meter.</item>
+    </string-array>
+
+    <string-array name="dino_tinggi6">
+        <item>Sekitar 2 meter.</item>
+        <item>Sekitar 2 meter.</item>
+    </string-array>
+
+    <string-array name="dino_makanan6">
+        <item>Fitoplankton, alga, dan serbaguna.</item>
+        <item>Fitoplankton, alga, dan serbaguna.</item>
+    </string-array>
+
+    <string-array name="dino_bobot6">
+        <item>Bobot sekitar 2.5 ton. Kelemahan termasuk "kerucut" yang besar yang mungkin membuatnya lebih rentan terhadap serangan predator.</item>
+        <item>Bobot sekitar 2.5 ton. Kelemahan termasuk "kerucut" yang besar yang mungkin membuatnya lebih rentan terhadap serangan predator.</item>
+    </string-array>
+
+    <!--    BAGIAN 7-->
+
+    <string-array name="dino_icon7">
+        <item>@drawable/angka_1</item>
+        <item>@drawable/angka_2</item>
+    </string-array>
+
+    <string-array name="dino_name7">
+        <item>Stegosaurus</item>
+        <item>Kentrosaurus</item>
+    </string-array>
+
+    <string-array name="dino_desc7">
+        <item>Dinosaurus herbivora yang dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Dinosaurus herbivora yang dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+    </string-array>
+
+    <string-array name="dino_characteristic7">
+        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+    </string-array>
+
+    <string-array name="dino_kelompok7">
+        <item>Herbivora.</item>
+        <item>Herbivora.</item>
+    </string-array>
+
+    <string-array name="dino_habitat7">
+        <item>Hutan dan savana.</item>
+        <item>Hutan dan savana.</item>
+    </string-array>
+
+    <string-array name="dino_panjang7">
+        <item>Sekitar 7 meter.</item>
+        <item>Sekitar 7 meter.</item>
+    </string-array>
+
+    <string-array name="dino_makanan7">
+        <item>Fitoplankton, alga, dan serbaguna.</item>
+        <item>Fitoplankton, alga, dan serbaguna.</item>
+    </string-array>
+
+    <string-array name="dino_tinggi7">
+        <item>Sekitar 2 meter.</item>
+        <item>Sekitar 2 meter.</item>
+    </string-array>
+
+    <string-array name="dino_bobot7">
+        <item>Bobot sekitar 2.5 ton. Kelemahan termasuk "dinding" yang terlalu besar yang mungkin membuatnya tidak efisien dalam bergerak.</item>
+        <item>Bobot sekitar 2.5 ton. Kelemahan termasuk "dinding" yang terlalu besar yang mungkin membuatnya tidak efisien dalam bergerak.</item>
+
+    </string-array>
+
+    <!--    BAGIAN 8-->
+
+    <string-array name="dino_icon8">
+        <item>@drawable/angka_1</item>
+        <item>@drawable/angka_2</item>
+    </string-array>
+
+    <string-array name="dino_name8">
+        <item>Oviraptor</item>
+        <item>Caudipteryx</item>
+    </string-array>
+
+    <string-array name="dino_desc8">
+        <item>Dinosaurus yang dikenal karena ciri khas seperti kepala yang kecil dan tulang yang sangat kuat.</item>
+        <item>Dinosaurus yang dikenal karena ciri khas seperti kepala yang kecil dan tulang yang sangat kuat.</item>
+    </string-array>
+
+    <string-array name="dino_characteristic8">
+        <item>Memiliki kepala yang kecil dan tulang yang sangat kuat.</item>
+        <item>Memiliki kepala yang kecil dan tulang yang sangat kuat.</item>
+    </string-array>
+
+    <string-array name="dino_kelompok8">
+        <item>Herbivora</item>
+        <item>Herbivora</item>
+    </string-array>
+
+    <string-array name="dino_habitat8">
+        <item>Hutan dan savana.</item>
+        <item>Hutan dan savana.</item>
+    </string-array>
+
+    <string-array name="dino_makanan8">
+        <item>Fitoplankton, alga, dan serbaguna.</item>
+        <item>Fitoplankton, alga, dan serbaguna.</item>
+    </string-array>
+
+    <string-array name="dino_panjang8">
+        <item>Sekitar 1.5 meter</item>
+        <item>Sekitar 1 meter</item>
+    </string-array>
+
+    <string-array name="dino_tinggi8">
+        <item>Sekitar 1 meter</item>
+        <item>Sekitar 0.5 meter</item>
+    </string-array>
+
+    <string-array name="dino_bobot8">
+        <item>Bobot sekitar 10 kg. Kelemahan termasuk ukuran yang relatif kecil dibandingkan dengan predatornya.</item>
+        <item>Bobot sekitar 5 kg. Kelemahan termasuk ukuran yang relatif kecil dibandingkan dengan predatornya.</item>
+    </string-array>
+
+</resources>
