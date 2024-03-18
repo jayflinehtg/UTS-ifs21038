@@ -11,7 +11,7 @@
         android:layout_width="422dp"
         android:layout_height="249dp"
         android:layout_marginTop="72dp"
-        android:src="@drawable/angka_1"
+        android:src="@drawable/my_photo"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingClass,MissingConstraints"
         tools:layout_editor_absoluteX="-10dp" />
