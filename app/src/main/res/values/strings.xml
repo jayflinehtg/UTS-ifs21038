@@ -10,7 +10,7 @@
 
     <string name="info_dino_icon">Gambar Dinosaurus</string>
     <string name="info_dino_name">Nama Dinosaurus</string>
-    <string name="info_dino_desc">Gambar Dinosaurus</string>
+    <string name="info_dino_desc">Deskripsi Dinosaurus</string>
     <string name="info_dino_characteristic">Karakteristik</string>
     <string name="info_dino_kelompok">Kelompok</string>
     <string name="info_dino_habitat">Habitat</string>

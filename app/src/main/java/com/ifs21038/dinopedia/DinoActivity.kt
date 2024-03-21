@@ -95,8 +95,8 @@ class DinoActivity : AppCompatActivity() {
 
     private fun showSelectedDino(dino: Dino) {
         val intentWithData = Intent(this@DinoActivity,
-            DinoActivity::class.java)
-        intentWithData.putExtra(DinoActivity.EXTRA_DINO, dino)
+            DetailDinosaurus::class.java)
+        intentWithData.putExtra(DetailDinosaurus.EXTRA_DINO, dino)
         startActivity(intentWithData)
     }
 }
