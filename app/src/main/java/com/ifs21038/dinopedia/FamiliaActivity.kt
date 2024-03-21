@@ -1,8 +1,10 @@
 package com.ifs21038.dinopedia
 
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.Menu
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.ifs21038.dinopedia.databinding.ActivityFamiliaBinding
 
@@ -14,6 +16,15 @@ class FamiliaActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityFamiliaBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val button2 = findViewById<Button>(R.id.button2)
+
+        button2.setOnClickListener {
+            val intent = Intent(this@FamiliaActivity, DinoActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)
+            finish()
+        }
 
         familia = if (Build.VERSION.SDK_INT >= 33) {
             intent.getParcelableExtra(EXTRA_FAMILIA,
@@ -31,6 +42,7 @@ class FamiliaActivity : AppCompatActivity() {
             finish()
         }
     }
+
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)

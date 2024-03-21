@@ -100,8 +100,8 @@
     <!--    BAGIAN 1-->
 
     <string-array name="dino_icon1">
-        <item>@drawable/angka_1</item>
-        <item>@drawable/angka_2</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/stegosaurus</item>
     </string-array>
 
     <string-array name="dino_name1">
