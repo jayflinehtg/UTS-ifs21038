@@ -11,4 +11,6 @@ data class Familia(
     var habitat: String,
     var periode: String,
     var perilaku: String,
+    var startIndex: Int,
+    var endIndex: Int
 ) : Parcelable

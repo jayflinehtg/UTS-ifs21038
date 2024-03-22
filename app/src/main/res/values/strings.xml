@@ -102,16 +102,58 @@
     <string-array name="dino_icon1">
         <item>@drawable/triceratops</item>
         <item>@drawable/stegosaurus</item>
+        <item>@drawable/trex</item>
+        <item>@drawable/velociraptor</item>
+        <item>@drawable/ankylosaurus</item>
+        <item>@drawable/nodosaurus</item>
+        <item>@drawable/velociraptor</item>
+        <item>@drawable/deinonychus</item>
+        <item>@drawable/troodon</item>
+        <item>@drawable/anchiornis</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/centrosaurus</item>
+        <item>@drawable/stegosaurus</item>
+        <item>@drawable/kentrosaurus</item>
+        <item>@drawable/oviraptor</item>
+        <item>@drawable/caudipteryx</item>
     </string-array>
 
-    <string-array name="dino_name1">
+    <string-array name="dino_name">
         <item>Triceratops</item>
         <item>Stegosaurus</item>
+        <item>Tyrannosaurus Rex</item>
+        <item>Velociraptor</item>
+        <item>Ankylosaurus</item>
+        <item>Nodosaurus</item>
+        <item>Velociraptor</item>
+        <item>Deinonychus</item>
+        <item>Troodon</item>
+        <item>Anchiornis</item>
+        <item>Triceratops</item>
+        <item>Centrosaurus</item>
+        <item>Stegosaurus</item>
+        <item>Kentrosaurus</item>
+        <item>Oviraptor</item>
+        <item>Caudipteryx</item>
     </string-array>
 
-    <string-array name="dino_desc1">
+    <string-array name="dino_desc">
         <item>Dinosaurus herbivora yang terkenal karena "kerucut" yang besar di kepalanya.</item>
         <item>Dinosaurus herbivora yang dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Dinosaurus carnivora yang terbesar dan terkenal karena gigi yang sangat besar dan agresif.</item>
+        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+        <item>Dinosaurus herbivora yang memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Theropoda adalah famili yang mencakup dinosaurus yang memiliki kaki yang sangat kuat dan seringkali memiliki gigi yang sangat agresif. Mereka adalah hewan yang sangat beragam, termasuk carnivora seperti Tyrannosaurus Rex dan Velociraptor. Theropoda juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Dinosaurus herbivora yang dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Dinosaurus herbivora yang dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+        <item>Dinosaurus yang dikenal karena ciri khas seperti kepala yang kecil dan tulang yang sangat kuat.</item>
+        <item>Dinosaurus yang dikenal karena ciri khas seperti kepala yang kecil dan tulang yang sangat kuat.</item>
     </string-array>
 
     <string-array name="dino_characteristic1">
@@ -150,19 +192,13 @@
     </string-array>
 
     <!--    BAGIAN 2-->
-    <string-array name="dino_icon2">
-        <item>@drawable/angka_1</item>
-        <item>@drawable/angka_2</item>
-    </string-array>
 
     <string-array name="dino_name2">
-        <item>Tyrannosaurus Rex</item>
-        <item>Velociraptor</item>
+
     </string-array>
 
     <string-array name="dino_desc2">
-        <item>Dinosaurus carnivora yang terbesar dan terkenal karena gigi yang sangat besar dan agresif.</item>
-        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+
     </string-array>
 
     <string-array name="dino_characteristic2">
@@ -202,18 +238,15 @@
 
     <!--    BAGIAN 3-->
     <string-array name="dino_icon3">
-        <item>@drawable/angka_1</item>
-        <item>@drawable/angka_2</item>
+
     </string-array>
 
     <string-array name="dino_name3">
-        <item>Ankylosaurus</item>
-        <item>Nodosaurus</item>
+
     </string-array>
 
     <string-array name="dino_desc3">
-        <item>Dinosaurus herbivora yang memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
-        <item>Theropoda adalah famili yang mencakup dinosaurus yang memiliki kaki yang sangat kuat dan seringkali memiliki gigi yang sangat agresif. Mereka adalah hewan yang sangat beragam, termasuk carnivora seperti Tyrannosaurus Rex dan Velociraptor. Theropoda juga mencakup beberapa dinosaurus yang tidak sepenuhnya carnivora, seperti oviraptorosauria.</item>
+
     </string-array>
 
     <string-array name="dino_characteristic3">
@@ -253,18 +286,15 @@
 
     <!--    BAGIAN 4-->
     <string-array name="dino_icon4">
-        <item>@drawable/angka_1</item>
-        <item>@drawable/angka_2</item>
+
     </string-array>
 
     <string-array name="dino_name4">
-        <item>Velociraptor</item>
-        <item>Deinonychus</item>
+
     </string-array>
 
     <string-array name="dino_desc4">
-        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
-        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+
     </string-array>
 
     <string-array name="dino_characteristic4">
@@ -305,18 +335,15 @@
     <!--    BAGIAN 5-->
 
     <string-array name="dino_icon5">
-        <item>@drawable/angka_1</item>
-        <item>@drawable/angka_2</item>
+
     </string-array>
 
     <string-array name="dino_name5">
-        <item>Troodon</item>
-        <item>Anchiornis</item>
+
     </string-array>
 
     <string-array name="dino_desc5">
-        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
-        <item>Dinosaurus carnivora yang dikenal karena gigi yang sangat agresif dan kaki yang sangat kuat.</item>
+
     </string-array>
 
     <string-array name="dino_characteristic5">
@@ -355,19 +382,13 @@
     </string-array>
 
     <!--    BAGIAN 6-->
-    <string-array name="dino_icon6">
-        <item>@drawable/angka_1</item>
-        <item>@drawable/angka_2</item>
-    </string-array>
 
     <string-array name="dino_name6">
-        <item>Triceratops</item>
-        <item>Centrosaurus</item>
+
     </string-array>
 
     <string-array name="dino_desc6">
-        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
-        <item>Memiliki tulang yang sangat kuat dan "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+
     </string-array>
 
     <string-array name="dino_characteristic6">
@@ -413,13 +434,11 @@
     </string-array>
 
     <string-array name="dino_name7">
-        <item>Stegosaurus</item>
-        <item>Kentrosaurus</item>
+
     </string-array>
 
     <string-array name="dino_desc7">
-        <item>Dinosaurus herbivora yang dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
-        <item>Dinosaurus herbivora yang dikenal karena "dinding" yang terdiri dari tulang yang membentuk "dinding" di belakang kepala.</item>
+
     </string-array>
 
     <string-array name="dino_characteristic7">
@@ -466,13 +485,11 @@
     </string-array>
 
     <string-array name="dino_name8">
-        <item>Oviraptor</item>
-        <item>Caudipteryx</item>
+
     </string-array>
 
     <string-array name="dino_desc8">
-        <item>Dinosaurus yang dikenal karena ciri khas seperti kepala yang kecil dan tulang yang sangat kuat.</item>
-        <item>Dinosaurus yang dikenal karena ciri khas seperti kepala yang kecil dan tulang yang sangat kuat.</item>
+
     </string-array>
 
     <string-array name="dino_characteristic8">
@@ -509,5 +526,28 @@
         <item>Bobot sekitar 10 kg. Kelemahan termasuk ukuran yang relatif kecil dibandingkan dengan predatornya.</item>
         <item>Bobot sekitar 5 kg. Kelemahan termasuk ukuran yang relatif kecil dibandingkan dengan predatornya.</item>
     </string-array>
+
+    <string-array name="start_index_dino">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="end_index_dino">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+        <item>13</item>
+        <item>15</item>
+    </string-array>
+
 
 </resources>

@@ -48,6 +48,8 @@ class MainActivity : AppCompatActivity() {
         val dataHabitat = resources.getStringArray(R.array.familia_habitat)
         val dataProcess = resources.getStringArray(R.array.familia_periode)
         val dataBehavior = resources.getStringArray(R.array.familia_perilaku)
+        val startIndex = resources.getStringArray(R.array.start_index_dino)
+        val endIndex = resources.getStringArray(R.array.end_index_dino)
         val listFamilia = ArrayList<Familia>()
         for (i in dataName.indices) {
             val familia = Familia(
@@ -57,7 +59,9 @@ class MainActivity : AppCompatActivity() {
                 dataCharacteristic[i],
                 dataHabitat[i],
                 dataProcess[i],
-                dataBehavior[i]
+                dataBehavior[i],
+                startIndex[i].toInt(),
+                endIndex[i].toInt()
             )
             listFamilia.add(familia)
         }
