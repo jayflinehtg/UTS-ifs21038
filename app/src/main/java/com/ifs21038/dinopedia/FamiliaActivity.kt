@@ -18,15 +18,6 @@ class FamiliaActivity : AppCompatActivity() {
         binding = ActivityFamiliaBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val button2 = findViewById<Button>(R.id.button2)
-
-        button2.setOnClickListener {
-            val intent = Intent(this@FamiliaActivity, DinoActivity::class.java)
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
-            startActivity(intent)
-            finish()
-        }
-
         familia = if (Build.VERSION.SDK_INT >= 33) {
             intent.getParcelableExtra(EXTRA_FAMILIA,
                 Familia::class.java)
@@ -37,11 +28,18 @@ class FamiliaActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         if (familia != null) {
-            supportActionBar?.title = "Menu ${familia!!.name}"
+            supportActionBar?.title = "Famili ${familia!!.name}"
             loadData(familia!!)
         } else {
             finish()
         }
+
+        binding.buttonListDino.setOnClickListener {
+            val intentWithData = Intent(this@FamiliaActivity, DinoActivity::class.java)
+            intentWithData.putExtra(DinoActivity.EXTRA_DINO, familia!!)
+            startActivity(intentWithData)
+        }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
@@ -51,6 +49,11 @@ class FamiliaActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
+            android.R.id.home -> {
+                // Kembali ke activity sebelumnya
+                onBackPressed()
+                true
+            }
             R.id.menu_about -> {
                 val intent = Intent(this@FamiliaActivity, ProfileActivity::class.java)
                 startActivity(intent)
@@ -69,9 +72,7 @@ class FamiliaActivity : AppCompatActivity() {
         binding.tvDetailHabitat.text = familia.habitat
         binding.tvPerilaku.text = familia.perilaku
 
-
     }
-
     companion object {
         const val EXTRA_FAMILIA = "com.ifs21038.dinopedia.EXTRA_FAMILIA"
     }
