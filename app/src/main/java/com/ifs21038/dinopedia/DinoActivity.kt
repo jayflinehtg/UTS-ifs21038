@@ -49,39 +49,37 @@ class DinoActivity : AppCompatActivity() {
     @SuppressLint("Recycle")
     private fun getListDinos(): ArrayList<Dino> {
         val family = if (Build.VERSION.SDK_INT >= 33) {
-            intent.getParcelableExtra<Familia>(EXTRA_FAMILIA)
+            intent.getParcelableExtra<Familia>(EXTRA_FAMILIA, Familia::class.java)
         } else {
             @Suppress("DEPRECATION")
             intent.getParcelableExtra<Familia>(EXTRA_FAMILIA)
         }
-
 
         val dataName = resources.getStringArray(R.array.dino_nama)
         val dataIcon = resources.obtainTypedArray(R.array.dino_gambar)
         val dataDescription = resources.getStringArray(R.array.dino_desc)
         val dataCharacteristic = resources.getStringArray(R.array.dino_characteristic)
         val dataHabitat = resources.getStringArray(R.array.dino_habitat)
-        val dataProcess = resources.getStringArray(R.array.dino_kelompok)
-        val dataFood = resources.getStringArray(R.array.dino_konsumsi)
+        val dataKelompok = resources.getStringArray(R.array.dino_kelompok)
+        val dataMakanan = resources.getStringArray(R.array.dino_konsumsi)
         val dataPanjang = resources.getStringArray(R.array.dino_panjang)
         val dataTinggi = resources.getStringArray(R.array.dino_tinggi)
         val dataBobot = resources.getStringArray(R.array.dino_bobot)
 
-        // Pastikan bahwa family tidak null dan memiliki nilai startIndex dan endIndex yang valid
-        val startIndex = family?.startIndex ?: 0
-        val endIndex = family?.endIndex ?: 0
+        val awalanIndex = family?.awalanIndex
+        val akhiranIndex = family?.akhiranIndex
 
         val listDino = ArrayList<Dino>()
-        for (i in startIndex!! .. endIndex!!) {
-            if (i < dataName.size && i < dataIcon.length() && i < dataDescription.size && i < dataCharacteristic.size && i < dataHabitat.size && i < dataProcess.size && i < dataFood.size && i < dataPanjang.size && i < dataTinggi.size && i < dataBobot.size) {
+        for (i in awalanIndex!! .. akhiranIndex!!) {
+            if (i < dataName.size && i < dataIcon.length() && i < dataDescription.size && i < dataCharacteristic.size && i < dataHabitat.size && i < dataKelompok.size && i < dataMakanan.size && i < dataPanjang.size && i < dataTinggi.size && i < dataBobot.size) {
                 val dino = Dino(
                     dataName[i],
                     dataIcon.getResourceId(i, -1),
                     dataDescription[i],
                     dataCharacteristic[i],
                     dataHabitat[i],
-                    dataProcess[i],
-                    dataFood[i],
+                    dataKelompok[i],
+                    dataMakanan[i],
                     dataPanjang[i],
                     dataTinggi[i],
                     dataBobot[i]
@@ -112,7 +110,7 @@ class DinoActivity : AppCompatActivity() {
     }
 
     companion object {
-        const val EXTRA_DINO = "com.ifs21038.dinopedia.EXTRA_DINO"
+        const val EXTRA_FAMILIA = "com.ifs21038.dinopedia.EXTRA_DINO"
     }
 
 

@@ -65,19 +65,22 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvDetailDescription" />
 
-    <TextView
-        android:id="@+id/StringPeriode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="4dp"
-        android:text="@string/info_familia_periode"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PeriodeFamilia" />
+        <TextView
+            android:id="@+id/StringPeriode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/info_familia_periode"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/PeriodeFamilia" />
 
-    <TextView
+        <TextView
         android:id="@+id/KarakteristikFamilia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -165,6 +168,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="List Dinosaurus"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvPerilaku" />

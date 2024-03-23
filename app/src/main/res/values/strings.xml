@@ -287,27 +287,26 @@
         <item>Bobot sekitar 5 kg. Kelemahan termasuk ukuran yang relatif kecil dibandingkan dengan predatornya.</item>
     </string-array>
 
-    <string-array name="start_index_dino">
-        <item>0</item>
-        <item>2</item>
-        <item>4</item>
-        <item>6</item>
-        <item>8</item>
-        <item>10</item>
-        <item>12</item>
-        <item>14</item>
+    <string-array name="awalan_index_dino">
+        <item>0</item> <!-- Ornithischia -->
+        <item>2</item> <!-- Theropoda -->
+        <item>4</item> <!-- Ankylosauria -->
+        <item>6</item> <!-- Dromaeosauridae -->
+        <item>8</item> <!-- Troodontidae -->
+        <item>10</item> <!-- Ceratopsia -->
+        <item>12</item> <!-- Stegosauria -->
+        <item>14</item> <!-- Oviraptorosauria -->
     </string-array>
 
-    <string-array name="end_index_dino">
-        <item>1</item>
-        <item>3</item>
-        <item>5</item>
-        <item>7</item>
-        <item>9</item>
-        <item>11</item>
-        <item>13</item>
-        <item>15</item>
+    <string-array name="akhiran_index_dino">
+        <item>1</item> <!-- Ornithischia -->
+        <item>3</item> <!-- Theropoda -->
+        <item>5</item> <!-- Ankylosauria -->
+        <item>7</item> <!-- Dromaeosauridae -->
+        <item>9</item> <!-- Troodontidae -->
+        <item>11</item> <!-- Ceratopsia -->
+        <item>13</item> <!-- Stegosauria -->
+        <item>15</item> <!-- Oviraptorosauria -->
     </string-array>
-
 
 </resources>

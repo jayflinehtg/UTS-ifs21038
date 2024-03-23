@@ -36,7 +36,7 @@ class FamiliaActivity : AppCompatActivity() {
 
         binding.buttonListDino.setOnClickListener {
             val intentWithData = Intent(this@FamiliaActivity, DinoActivity::class.java)
-            intentWithData.putExtra(DinoActivity.EXTRA_DINO, familia!!)
+            intentWithData.putExtra(DinoActivity.EXTRA_FAMILIA, familia!!)
             startActivity(intentWithData)
         }
 
