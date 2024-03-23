@@ -24,7 +24,7 @@ class DetailDinosaurus : AppCompatActivity() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        menuInflater.inflate(R.menu.menu_main, menu)
+        menuInflater.inflate(R.menu.menu_share, menu)
         return true
     }
 
@@ -35,12 +35,14 @@ class DetailDinosaurus : AppCompatActivity() {
                 onBackPressed()
                 true
             }
-            R.id.menu_about -> {
-                val intent = Intent(this@DetailDinosaurus, ProfileActivity::class.java)
-                startActivity(intent)
+            R.id.tampilan_berbagi -> {
+                val shareIntent = Intent(Intent.ACTION_SEND)
+                shareIntent.setType("text/plain")
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "${dino!!.name}, ${dino!!.description}, ${dino!!.characteristic}, ${dino!!.kelompok}")
+                startActivity(Intent.createChooser(shareIntent, "Bagikan melalui"))
                 true
             }
-            else -> super.onOptionsItemSelected(item)
+            else -> false // Tambahkan kasus else ini
         }
     }
 
