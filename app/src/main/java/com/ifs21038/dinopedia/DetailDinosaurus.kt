@@ -38,7 +38,7 @@ class DetailDinosaurus : AppCompatActivity() {
             R.id.tampilan_berbagi -> {
                 val shareIntent = Intent(Intent.ACTION_SEND)
                 shareIntent.setType("text/plain")
-                shareIntent.putExtra(Intent.EXTRA_TEXT, "${dino!!.name}, ${dino!!.description}, ${dino!!.characteristic}, ${dino!!.kelompok}")
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "${dino!!.name}, ${dino!!.description}, ${dino!!.characteristic}, ${dino!!.kelompok}, ${dino!!.makanan}, ${dino!!.habitat}, ${dino!!.panjang}, ${dino!!.tinggi}, ${dino!!.bobot}")
                 startActivity(Intent.createChooser(shareIntent, "Bagikan melalui"))
                 true
             }

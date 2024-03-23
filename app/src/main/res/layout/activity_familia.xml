@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:paddingBottom="50dp">
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <ImageView
             android:id="@+id/familiaImage"
             android:layout_width="170dp"
             android:layout_height="150dp"
